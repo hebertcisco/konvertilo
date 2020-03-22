@@ -1,7 +1,7 @@
 {
   "name": "konvertilo",
   "version": "1.0.0",
-  "description": "Binary to Decimal converter using React\r ## Binary number\r In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically \"0\" (zero) and \"1\" (one).",
+  "description": "Binary to Decimal converter using React",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -34,5 +34,5 @@
   "bugs": {
     "url": "https://github.com/tecnobert/konvertilo/issues"
   },
-  "homepage": "https://github.com/tecnobert/konvertilo#readme"
+  "homepage": "http://konvertilo.com/"
 }
