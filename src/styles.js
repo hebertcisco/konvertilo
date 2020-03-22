@@ -2,10 +2,10 @@ import styled from 'styled-components'
 
 export const StyledForm = styled.form`
   border: 1px solid gray;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 6px;
+  padding: 8px;
   width: 50%;
-  background: radial-gradient(ellipse at center, #f2f9fe 0%, #d6f0fd 100%);
+  background: radial-gradient(ellipse at center, #e8f5e9 0%, #c9e6c9 100%);
 `
 
 export const Field = styled.div`
@@ -27,7 +27,7 @@ export const BinaryTextInput = styled.input`
   border: 1px solid #a3a3a3;
   padding: 10px;
   border-radius: 2px;
-  background: #e0f0f0;
+  background: #fff;
   outline: none;
 
   &:focus {
@@ -43,7 +43,7 @@ export const DecimalTextInput = styled.input`
   border: 1px solid #a3a3a3;
   padding: 10px;
   border-radius: 2px;
-  background: #e0f0e0;
+  background: #fff;
   outline: none;
 `
 
