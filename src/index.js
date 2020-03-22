@@ -3,17 +3,17 @@
 * Under MIT license
 * https://github.com/tecnobert/konvertilo
 *****************************/
+import React, { useState } from 'react'
+import ReactDOM from 'react-dom'
+
 import {
+  StyledForm,
   BinaryTextInput,
+  Label,
   Button,
   DecimalTextInput,
-  Field,
-  Label,
-  StyledForm
+  Field
 } from './styles'
-import React, { useState } from 'react'
-
-import ReactDOM from 'react-dom'
 
 function App() {
   const [binaryText, setBinaryText] = useState('')
@@ -51,13 +51,13 @@ function App() {
 
   return (
     <>
-      <h1>Conversor de binário para decimal</h1>
+      <h1>Binary to Decimal Converter</h1>
 
       <StyledForm onSubmit={onFormSubmit}>
         {errorMessage && <span style={{ color: 'red' }}>{errorMessage}</span>}
         <br />
         <Field>
-          <Label>Entrada binária</Label>
+          <Label>Binary Input</Label>
           <div>
             <BinaryTextInput
               autoComplete="off"
@@ -67,11 +67,11 @@ function App() {
               value={binaryText}
               onChange={e => setBinaryText(e.target.value)}
             />
-            <Button type="submit">Converter</Button>
+            <Button type="submit">Convert</Button>
           </div>
         </Field>
         <Field>
-          <Label>Saída decimal</Label>
+          <Label>Decimal Output</Label>
           <DecimalTextInput
             type="text"
             name="decimal"
