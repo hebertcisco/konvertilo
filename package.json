@@ -1,7 +1,7 @@
 {
-  "name": "bin2dec",
+  "name": "konvertilo",
   "version": "1.0.0",
-  "description": "",
+  "description": "Binary to Decimal converter using React\r ## Binary number\r In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically \"0\" (zero) and \"1\" (one).",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -24,5 +24,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecnobert/konvertilo.git"
+  },
+  "author": "Hebert Barros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecnobert/konvertilo/issues"
+  },
+  "homepage": "https://github.com/tecnobert/konvertilo#readme"
 }
