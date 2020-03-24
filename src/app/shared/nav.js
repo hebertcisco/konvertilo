@@ -6,7 +6,7 @@ import Styled from "../../styles/styles"
 import Toolbar from "@material-ui/core/Toolbar"
 import TranslateSharp from "@material-ui/icons/TranslateSharp"
 import Typography from "@material-ui/core/Typography"
-
+import GithubLink from './github'
 //import Link from '@material-ui/core/Link'
 
 export default function Nav() {
@@ -30,6 +30,7 @@ export default function Nav() {
           <div className={classes.grow} />
 
           <div className={classes.sectionDesktop}>
+          <GithubLink></GithubLink>
             {/* <Link href={urls.routes[1]} className={classes.links}>
               About
   </Link>*/}
