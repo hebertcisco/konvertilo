@@ -8,7 +8,11 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-scripts": "2.1.8",
+<<<<<<< HEAD
     "@material-ui/core": "^4.9.5",
+=======
+   "@material-ui/core": "^4.9.5",
+>>>>>>> 7c4ac7aacdff5c656447a84cd5f36891f5a8cc74
     "@material-ui/icons": "^4.9.1",
     "@material-ui/styles": "^4.9.0"
   },
