@@ -8,19 +8,35 @@ import React, { useState } from 'react'
 
 import ArrowDownwardTwoTone from '@material-ui/icons/ArrowDownwardTwoTone'
 import ComputerTwoTone from '@material-ui/icons/ComputerTwoTone'
-import GithubLink from './shared/github'
 import Keyboard from '@material-ui/icons/Keyboard'
+import MuiAlert from '@material-ui/lab/Alert'
+import Snackbar from '@material-ui/core/Snackbar'
 import Styled from '../styles/styles'
 import { titles } from './app.json'
 
 //import ArrowUpwardTwoTone from '@material-ui/icons/ArrowUpwardTwoTone'
-
+function Alert(props) {
+  return <MuiAlert elevation={6} variant="filled" {...props} />
+}
 function BinaryMode() {
   let classes = Styled()
   const [binaryText, setBinaryText] = useState('')
   const [decimalText, setDecimalText] = useState('')
   const [errorMessage, setErrorMessage] = useState('')
+  
+  const [open, setOpen] = React.useState(false);
 
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
   // Perform the conversion on form submit
   const onFormSubmit = e => {
     e.preventDefault() // prevents refresh of the browser
@@ -52,14 +68,18 @@ function BinaryMode() {
 
   return (
     <div className="body">
-      <h1 className={classes.h1}>
-        {titles[0]} <GithubLink />
-      </h1>
+      <h1 className={classes.h1}>{titles[0]}</h1>
 
       <form className={classes.StyledForm} onSubmit={onFormSubmit}>
         {errorMessage && (
           <span className={classes.errorMessage}>{errorMessage}</span>
         )}
+        <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="success">
+          This is a success message!
+        </Alert>
+      </Snackbar>
+
         <br />
         <div className={classes.Field}>
           <label className={classes.Label}>

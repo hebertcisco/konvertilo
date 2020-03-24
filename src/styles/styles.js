@@ -24,8 +24,18 @@ const Styled = makeStyles(theme => ({
     border: 0,
     fontFamily: 'IBMPlexMonoRegular'
   },
+  Nav: {
+    height: 50,
+    marginBottom: '175px'
+  },
   h1: {
     fontFamily: 'IBMPlexMonoBold'
+  },
+  links:{
+    color: colors.hover.$primary,
+    '&:hover': {
+      color: blue[800]
+    }
   },
   errorMessage: {
     color: red[500],
@@ -104,7 +114,37 @@ const Styled = makeStyles(theme => ({
       border: '1px solid'
     }
   },
+  grow: {
+    flexGrow: 1
+  },
+  bgNav: {
+    background: 'linear-gradient(45deg, #fff 30%, #f4f4f4 90%)',
+    boxShadow: '0 2px 2px 2px #f9f9f9'
+  },
+  menuButton: {
+    marginRight: theme.spacing(2)
+  },
+  title: {
+    display: 'none',
+    color: grey[700],
+    [theme.breakpoints.up('sm')]: {
+      display: 'block'
+    }
+  },
 
+  sectionDesktop: {
+    display: 'none',
+
+    [theme.breakpoints.up('md')]: {
+      display: 'flex'
+    }
+  },
+  sectionMobile: {
+    display: 'flex',
+    [theme.breakpoints.up('md')]: {
+      display: 'none'
+    }
+  },
   '@media screen and (max-width: 320px)': {
     StyledForm: {
       border: colors.$border,
