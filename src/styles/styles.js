@@ -31,12 +31,7 @@ const Styled = makeStyles(theme => ({
   h1: {
     fontFamily: 'IBMPlexMonoBold'
   },
-  links:{
-    color: colors.hover.$primary,
-    '&:hover': {
-      color: blue[800]
-    }
-  },
+  
   errorMessage: {
     color: red[500],
     fontFamily: 'IBMPlexMonoExtraLight'
