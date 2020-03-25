@@ -1,8 +1,17 @@
-# [Konvertilo](https://konvertilo.com/)
+# [Konvertilo](https://konvertilo.com/) Binary to Decimal converter using React
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a2b06ae3-10d7-4ea9-8428-7a0bf6d3effc/deploy-status)](https://app.netlify.com/sites/konvertilo/deploys)
-
-Binary to Decimal converter using React
+## Abstract
+To make this application, React JS was used in conjunction with Material UI.
+You can fork or clone this repo, if you want clone make this:
+``
+git clone https://github.com/tecnobert/konvertilo
+``
+To start, run the following commands:
+``
+npm install
+npm start
+``
 ## Binary number
 In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically "0" (zero) and "1" (one).
 
