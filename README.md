@@ -18,34 +18,35 @@ npm install
 npm start
 ```
 
-## :zero: :one: Binary number
-In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically "0" (zero) and "1" (one).
+**Tier:** 1-Beginner
 
-The base-2 numeral system is a positional notation with a radix of 2. Each digit is referred to as a bit. Because of its straightforward implementation in digital electronic circuitry using logic gates, the binary system is used by almost all modern computers and computer-based devices.
+Binary is the number system all digital computers are based on.
+Therefore it's important for developers to understand binary, or base 2,
+mathematics. The purpose of Bin2Dec is to provide practice and
+understanding of how binary calculations.
 
-## :1234: Decimal counting
-Decimal counting uses the ten symbols 0 through 9. Counting begins with the incremental substitution of the least significant digit (rightmost digit) which is often called the first digit. When the available symbols for this position are exhausted, the least significant digit is reset to 0, and the next digit of higher significance (one position to the left) is incremented (overflow), and incremental substitution of the low-order digit resumes. This method of reset and overflow is repeated for each digit of significance. Counting progresses as follows:
+Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
+and 1's, in any sequence and then displays its decimal equivalent.
 
-`000, 001, 002, ... 007, 008, 009`, (rightmost digit is reset to zero, and the digit to its left is incremented)
-`010, 011, 012`, ...
-   ...
-`090, 091, 092, ... 097, 098, 099`, (rightmost two digits are reset to zeroes, and next digit is incremented)
-`100, 101, 102`, ...
+This challenge requires that the developer implementing it follow these
+constraints:
 
-## :zero: :one: Binary counting
+-   Arrays may not be used to contain the binary digits entered by the user
+-   Determining the decimal equivalent of a particular binary digit in the
+    sequence must be calculated using a single mathematical function, for
+    example the natural logarithm. It's up to you to figure out which function
+    to use.
 
-This counter shows how to count in binary from numbers zero through thirty-one.
-Binary counting follows the same procedure, except that only the two symbols 0 and 1 are available. Thus, after a digit reaches 1 in binary, an increment resets it to 0 but also causes an increment of the next digit to the left:
+## User Stories
 
-`0000`,
-`0001`, (rightmost digit starts over, and next digit is incremented)
-`0010, 0011`, (rightmost two digits start over, and next digit is incremented)
-`0100, 0101, 0110, 0111`, (rightmost three digits start over, and the next digit is incremented)
-`1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111` ...
-In the binary system, each digit represents an increasing power of 2, with the rightmost digit representing 20, the next representing 21, then 22, and so on. The value of a binary number is the sum of the powers of 2 represented by each "1" digit. For example, the binary number 100101 is converted to decimal form as follows:
+-   [x] User can enter up to 8 binary digits in one input field
+-   [x]User must be notified if anything other than a 0 or 1 was entered
+-   [x] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
 
-```
-1001012 = [ ( 1 ) × 25 ] + [ ( 0 ) × 24 ] + [ ( 0 ) × 23 ] + [ ( 1 ) × 22 ] + [ ( 0 ) × 21 ] + [ ( 1 ) × 20 ]
-1001012 = [ 1 × 32 ] + [ 0 × 16 ] + [ 0 × 8 ] + [ 1 × 4 ] + [ 0 × 2 ] + [ 1 × 1 ]
-1001012 = 3710
-```
+## Bonus features
+
+-   [x] User can enter a variable number of binary digits
+
+## Useful links and resources
+
+[Binary number system](https://en.wikipedia.org/wiki/Binary_number)
