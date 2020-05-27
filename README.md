@@ -1,7 +1,5 @@
 # [💻 Konvertilo - Demo](https://konvertilo.com/) 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/a2b06ae3-10d7-4ea9-8428-7a0bf6d3effc/deploy-status)](https://app.netlify.com/sites/konvertilo/deploys)
-
 ## Abstract
 The name of this application "Konvertilo" means converter, it is in Esperanto. Most of my applications are named in Esperanto.
 To make this application, React JS was used in conjunction with Material UI.
