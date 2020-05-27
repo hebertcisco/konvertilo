@@ -1,0 +1,20 @@
+{
+  "seo": {
+    "GLOBAL": {
+      "placename": "Brazil",
+      "image": "https://raw.githubusercontent.com/tecnobert/konvertilo/master/prints/konvertilo.com.png",
+      "country": "br",
+      "domain": "konvertilo.com",
+      "locale": "pt_BR",
+      "distribution": "global",
+      "rating": "general",
+      "type": "website",
+      "creator": "@hebertsoftware"
+    },
+    "INDEX": {
+      "title": "Home page",
+      "desc": "💻 Binary to Decimal converter using React",
+      "keywords": "Binary to Decimal converter, Tecnobert, Konvertilo, Konvertilo tecnobert, converter, converter, conversor feito com react, react, react native, hebert barros, hebert f barros, facebook, bitly, reactjs, firebase, api, rebrand.ly, api whatsapp. whatsapp, link, link whatsapp, link curto, web development, web app, frontend, style, design, css, javascript, ES6, NodeJS, Firebase, Github, Git, Open Source, MIT, go, markdown, html5"
+    }
+  }
+}
