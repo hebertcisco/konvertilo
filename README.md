@@ -1,4 +1,4 @@
-# [💻 Konvertilo - Demo](https://konvertilo.com/) 
+# [💻 Konvertilo - Demo](https://konvertilo.now.sh/) 
 
 ## Abstract
 The name of this application "Konvertilo" means converter, it is in Esperanto. Most of my applications are named in Esperanto.
