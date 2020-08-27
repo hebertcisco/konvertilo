@@ -42,7 +42,7 @@ function App() {
         <meta content={SEO.index.title} property="og:title" />
         <meta content={SEO.index.canonical} property="og:url" />
         <meta content={SEO.index.desc} property="og:description" />
-        <meta content="@frevodiboys" name="twitter:site" />
+        <meta content="@konvertilo" name="twitter:site" />
         <meta content={SEO.index.creator} name="twitter:creator" />
         <meta content={SEO.index.domain} name="twitter:domain" />
         <meta content={SEO.index.image} property="og:image" />
