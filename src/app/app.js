@@ -6,7 +6,6 @@
 
 import BinaryMode from "./binary"
 import { Container } from "@material-ui/core"
-import Nav from "./shared/nav"
 import React from "react"
 import SEO from "./data/js/seo"
 import {Helmet} from "react-helmet";
@@ -42,8 +41,8 @@ function App() {
         <meta content={SEO.index.title} property="og:title" />
         <meta content={SEO.index.canonical} property="og:url" />
         <meta content={SEO.index.desc} property="og:description" />
-        <meta content="@konvertilo" name="twitter:site" />
-        <meta content={SEO.index.creator} name="twitter:creator" />
+
+      <meta content={SEO.index.creator} name="twitter:creator" />
         <meta content={SEO.index.domain} name="twitter:domain" />
         <meta content={SEO.index.image} property="og:image" />
         <meta content="1200" property="og:image:width" />
@@ -53,8 +52,7 @@ function App() {
         <link href={SEO.index.canonical} hreflang="x-default" rel="alternate" />
       </Helmet>
       <Container>
-        <Nav></Nav>
-        <BinaryMode></BinaryMode>
+        <BinaryMode/>
 
         {/*<DecimalMode></DecimalMode>*/}
       </Container>
