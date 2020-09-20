@@ -53,7 +53,7 @@ const Styled = makeStyles((theme) => ({
     fontFamily: "IBMPlexMonoRegular",
     color: colors.$primary
   },
-  BinaryTextInput: {
+  BaseTextInput: {
     width: "50%",
     fontSize: "18px",
     marginLeft: "10px",
@@ -69,7 +69,7 @@ const Styled = makeStyles((theme) => ({
       border: colors.hover.$border
     }
   },
-  DecimalTextInput: {
+  Base2TextInput: {
     width: "50%",
     fontSize: "18px",
     marginLeft: "10px",
