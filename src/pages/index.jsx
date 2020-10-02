@@ -90,7 +90,7 @@ export default function SimpleTabs() {
         <FormBases
           base1="dec"
           base2="bin"
-          title={0}
+          title={1}
           error_message="Enter a decimal number"
           placeholder="Enter decimal"
         />
@@ -99,7 +99,7 @@ export default function SimpleTabs() {
         <FormBases
           base1="hex"
           base2="dec"
-          title={0}
+          title={2}
           error_message="Enter a hexadecimal number"
           placeholder="Enter hexadecimal"
         />
@@ -108,7 +108,7 @@ export default function SimpleTabs() {
         <FormBases
           base1="dec"
           base2="hex"
-          title={0}
+          title={3}
           error_message="Enter either 0 or 1"
           placeholder="Enter 0 or 1"
         />
