@@ -110,7 +110,7 @@ export default function SimpleTabs() {
           base2="hex"
           title={3}
           error_message="Enter either 0 or 1"
-          placeholder="Enter 0 or 1"
+          placeholder="Enter decimal"
         />
       </HomePanel>
     </div>
