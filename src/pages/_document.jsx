@@ -1,17 +1,8 @@
 import * as React from "react"
 
-import Document, {
-  Head,
-  Html,
-  Main,
-  NextScript
-} from "next/document"
+import Document, { Head, Html, Main, NextScript } from "next/document"
 
-type DocumentProps = {
-  styleTags: Array<React.ReactElement<{}>>
-}
-
-export default class CustomDocument extends Document<DocumentProps> {
+export default class CustomDocument extends Document {
   setGoogleTags() {
     return {
       __html: `
@@ -22,7 +13,7 @@ export default class CustomDocument extends Document<DocumentProps> {
       `
     }
   }
-  public render() {
+  render() {
     const { styleTags } = this.props
     return (
       <Html>

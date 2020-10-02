@@ -3,11 +3,8 @@ import Head from "next/head"
 import SEO from "../app/data/js/seo"
 
 import React from "react"
-type AppProps = {
-  Component: React.ReactNode
-  pageProps: any
-}
-export default class CustomApp extends App<AppProps> {
+
+export default class CustomApp extends App {
   render() {
     const { Component, pageProps } = this.props
 
