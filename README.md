@@ -44,7 +44,13 @@ constraints:
 ## Bonus features
 
 -   [x] User can enter a variable number of binary digits
+-   [x] User can converter Hexadecimal to Decimal and on the contrary
+
 
 ## Useful links and resources
 
 [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
+
+[Math Base Converter](https://www.npmjs.com/package/mathbases)
+
+
