@@ -1,11 +1,22 @@
 {
-  "app": {
-    "NAME": "Konvertilo"
-  },
-  "titles": ["Binary to Decimal Converter", "Decimal to Binary Converter"],
-  "strings": ["Binary Input", "Decimal Output"],
-  "urls": {
-    "github": "https://github.com/tecnobert/konvertilo/",
-    "routes": ["/", "/about"]
-  }
+    "app": {
+        "NAME": "Konvertilo"
+    },
+    "titles": [
+        "Binary to Decimal Converter",
+        "Decimal to Binary Converter",
+        "Hexa to Decimal Converter",
+        "Decimal to Hexa Converter"
+    ],
+    "strings": [
+        "Binary Input",
+        "Decimal Output"
+    ],
+    "urls": {
+        "github": "https://github.com/tecnobert/konvertilo/",
+        "routes": [
+            "/",
+            "/about"
+        ]
+    }
 }
