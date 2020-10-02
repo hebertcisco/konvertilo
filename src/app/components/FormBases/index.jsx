@@ -26,7 +26,7 @@ export const FormBases = ({
   const onFormSubmit = (e) => {
     e.preventDefault()
 
-  /*  if (baseText.match(/^[0-1]+$/g) === null) {
+    /*  if (baseText.match(/^[0-1]+$/g) === null) {
       setErrorMessage(error_message)
       handleClick()
       return
