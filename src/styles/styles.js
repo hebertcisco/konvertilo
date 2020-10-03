@@ -22,19 +22,19 @@ const Styled = makeStyles((theme) => ({
   body: {
     margin: 0,
     border: 0,
-    fontFamily: "IBMPlexMonoRegular"
+    fontFamily: "Poppins"
   },
   Nav: {
     height: 50,
     marginBottom: "175px"
   },
   h1: {
-    fontFamily: "IBMPlexMonoBold"
+    fontFamily: "Poppins"
   },
 
   errorMessage: {
     color: red[500],
-    fontFamily: "IBMPlexMonoExtraLight"
+    fontFamily: "Poppins"
   },
   StyledForm: {
     border: colors.$border,
@@ -50,7 +50,7 @@ const Styled = makeStyles((theme) => ({
   Label: {
     margin: "10px",
     fontSize: "18px",
-    fontFamily: "IBMPlexMonoRegular",
+    fontFamily: "Poppins",
     color: colors.$primary
   },
   BaseTextInput: {
@@ -76,7 +76,7 @@ const Styled = makeStyles((theme) => ({
     marginBottom: "10px",
     border: colors.$border,
     padding: "10px",
-    fontFamily: "IBMPlexMonoRegular",
+    fontFamily: "Poppins",
     borderRadius: "2px",
     background: colors.$secondary,
     outline: "none",
@@ -96,7 +96,7 @@ const Styled = makeStyles((theme) => ({
     border: "1px solid",
     borderBottom: "4.5px solid",
     borderRadius: "12px",
-    fontFamily: "IBMPlexMonoRegular",
+    fontFamily: "Poppins",
     fontSize: "18px",
     cursor: "pointer",
     color: colors.$primary,
