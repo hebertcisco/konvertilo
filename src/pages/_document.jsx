@@ -18,6 +18,7 @@ export default class CustomDocument extends Document {
     return (
       <Html>
         <Head>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet"/>
           <script src="https://kit.fontawesome.com/1fb9726ed9.js"></script>
           <>
             <script
