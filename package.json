@@ -32,12 +32,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tecnobert/konvertilo.git"
+    "url": "git+https://github.com/hebertcisco/konvertilo.git"
   },
   "author": "Hebert Barros",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tecnobert/konvertilo/issues"
+    "url": "https://github.com/hebertcisco/konvertilo/issues"
   },
   "homepage": "http://konvertilo.com/"
 }

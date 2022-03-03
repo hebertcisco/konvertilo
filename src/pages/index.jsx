@@ -1,7 +1,7 @@
 /***************************
  * Code created by Hebert Barros,
  * Under MIT license
- * https://github.com/tecnobert/konvertilo
+ * https://github.com/hebertcisco/konvertilo
  *****************************/
 
 import { FormBases } from "../app/components/FormBases"

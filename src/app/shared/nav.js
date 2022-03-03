@@ -7,7 +7,6 @@ import Toolbar from "@material-ui/core/Toolbar"
 import TranslateSharp from "@material-ui/icons/TranslateSharp"
 import Typography from "@material-ui/core/Typography"
 import GithubLink from "./github"
-//import Link from '@material-ui/core/Link'
 
 export default function Nav() {
   const classes = Styled()
@@ -32,14 +31,10 @@ export default function Nav() {
 
           <div className={classes.sectionDesktop}>
             <GithubLink></GithubLink>
-            {/* <Link href={urls.routes[1]} className={classes.links}>
-              About
-  </Link>*/}
           </div>
           <div className={classes.sectionMobile}></div>
         </Toolbar>
       </AppBar>
-
       <div className={classes.root}></div>
     </div>
   )
