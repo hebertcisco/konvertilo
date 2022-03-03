@@ -6,7 +6,7 @@ To make this application, React JS was used in conjunction with Material UI.
 You can fork or clone this repo, if you want clone make this:
 
 ```sh
-git clone https://github.com/hebertcisco/konvertilo
+git clone https://github.com/tecnobert/konvertilo
 ```
 
 To start, run the following commands:

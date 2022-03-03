@@ -1,7 +1,7 @@
 /***************************
  * Code created by Hebert Barros,
  * Under MIT license
- * https://github.com/hebertcisco/konvertilo
+ * https://github.com/tecnobert/konvertilo
  *****************************/
 
 import { blue, grey, red, yellow } from "@material-ui/core/colors"

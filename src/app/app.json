@@ -13,7 +13,7 @@
         "Decimal Output"
     ],
     "urls": {
-        "github": "https://github.com/hebertcisco/konvertilo/",
+        "github": "https://github.com/tecnobert/konvertilo/",
         "routes": [
             "/",
             "/about"

@@ -1,7 +1,7 @@
 /***************************
  * Code created by Hebert Barros,
  * Under MIT license
- * https://github.com/hebertcisco/konvertilo
+ * https://github.com/tecnobert/konvertilo
  *****************************/
 
 import { FormBases } from "../app/components/FormBases"
@@ -116,23 +116,3 @@ export default function SimpleTabs() {
     </div>
   )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -4,4 +4,4 @@ User-agent: *
 
 Allow: / 
 
-Sitemap: https://konvertilo.com/sitemap.xml
+Sitemap: https://konvertilo.now.sh/sitemap.xml
